@@ -9,6 +9,13 @@
 
   <name>Interview</name>
   <url>http://maven.apache.org</url>
+  
+  <distributionManagement>
+    <repository>
+      <id>releases</id>
+      <url>http://ec2-3-14-251-87.us-east-2.compute.amazonaws.com:8081/nexus/content/repositories/devopstraining</url>
+    </repository>
+  </distributionManagement>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
