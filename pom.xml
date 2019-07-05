@@ -13,13 +13,6 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
-  
-  <distributionManagement>
-    <repository>
-      <id>releases</id>
-      <url>http://ec2-3-14-251-87.us-east-2.compute.amazonaws.com:8081/nexus/content/repositories/devopstraining</url>
-    </repository>
-  </distributionManagement>
 
     <build>
         <plugins>
