@@ -4,7 +4,7 @@
 
   <groupId>com.piglin</groupId>
   <artifactId>Interview</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1</version>
   <packaging>jar</packaging>
 
   <name>Interview</name>
@@ -13,6 +13,13 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
+  
+  <distributionManagement>
+    <repository>
+      <id>releases</id>
+      <url>http://ec2-3-14-251-87.us-east-2.compute.amazonaws.com:8081/nexus/content/repositories/devopstraining</url>
+    </repository>
+  </distributionManagement>
 
     <build>
         <plugins>
